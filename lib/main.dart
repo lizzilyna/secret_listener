@@ -31,7 +31,6 @@ class SecretListenerHomepage extends StatefulWidget {
 class _SecretListenerHomepageState extends State<SecretListenerHomepage> {
   FilePickerResult? result; //metodi definiti sotto coi plugin Flutter
   AudioPlayer audioPlayer = AudioPlayer();
-  late AudioPlayer player = AudioPlayer();
   double playbackRate = 1; // velocità pari a 1
 
   @override
@@ -85,11 +84,15 @@ class _SecretListenerHomepageState extends State<SecretListenerHomepage> {
         () {}); //la funzione setState fa cambiare l'interfaccia, la scritta scegli audio diventa il nome del file scelto
   }
 
-  void playAudio() {
+  void playAudio() async {
     //var source = DeviceFileSource(result!.files.single.path!);
-    if (result != null) {
-      audioPlayer.play(DeviceFileSource(result!.files.single
-          .path!)); // metodo play di Audioplayer, che accetta la src come argomento
+    if (audioPlayer.state == PlayerState.playing) {
+      await audioPlayer.pause();
+    } else {
+      if (result != null) {
+        await audioPlayer.play(DeviceFileSource(result!.files.single
+            .path!)); // metodo play di Audioplayer, che accetta la src come argomento
+      }
     }
   }
 
