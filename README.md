@@ -29,7 +29,8 @@ Dart
 🖼️ Anteprima / Preview
 
 
-![flutter_01_sm](https://github.com/user-attachments/assets/559dd774-9380-4e54-88d6-90daca0bb00f)
+
+![flutter_01_xsm](https://github.com/user-attachments/assets/5f98d229-c5ef-4a5c-a24a-5dff7997a6f2)
 
 
 ⚠️ Disclaimer
