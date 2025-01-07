@@ -1,10 +1,46 @@
-# secret_listener
+📱 Flutter Themed App - Secret Listener
+📝 Descrizione 
+Secret Listener è un'app Flutter che permette di ascoltare i messaggi vocali di WhatsApp senza che il mittente riceva la notifica di "riproduzione".
 
-A new Flutter project.
+💡 Caratteristiche principali:
 
-## Getting Started
+Funzionalità di ascolto discreto dei vocali.
+Realizzata per scopi educativi, seguendo un tutorial di Pitone Programmatore e aggiungendo personalizzazioni.
 
-This project is a starting point for a Flutter application.
+📝 Description
+Secret Listener is a Flutter app that allows users to listen to WhatsApp voice messages without notifying the sender of playback.
+
+💡 Key Features:
+
+Discreet voice message listening.
+Created for educational purposes, following a Pitone Programmatore tutorial and adding customizations.
+
+🛠️ Tecnologie / Technologies
+Flutter
+Dart
+
+📦 Struttura del progetto / Project Structure
+
+├── lib/
+│   ├── main.dart       # Punto di ingresso dell'app
+│   ├── styles.dart     # Definizione degli stili personalizzati
+
+
+🖼️ Anteprima / Preview
+
+![flutter_01](https://github.com/user-attachments/assets/c84e4563-e3cb-4aca-a9e6-2a7cfae62292)
+
+
+
+⚠️ Disclaimer
+Questa app è stata sviluppata esclusivamente per scopi educativi e per esplorare le funzionalità di Flutter. Non è destinata a essere utilizzata per violare la privacy di altre persone.
+
+📜 Crediti / Credits
+Tutorial seguito: Pitone Programmatore (https://youtu.be/Qodfa7G08lM?si=x_UWO9MURQwtfAiz)
+
+
+🛑 Avviso etico
+Ricorda che la privacy è un diritto importante. Utilizza questa app in modo responsabile e con rispetto per gli altri.
 
 A few resources to get you started if this is your first Flutter project:
 
