@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 class Pino {
   static const TextStyle pino = TextStyle(
@@ -46,6 +47,15 @@ class _SecretListenerHomepageState extends State<SecretListenerHomepage> {
   AudioPlayer audioPlayer = AudioPlayer();
   bool isPlaying = false;
   double playbackRate = 1; // velocità pari a 1
+
+  // void requestPermission() async {
+  //   var status = await Permission.storage.request();
+  //   if (status.isGranted) {
+  //     debugPrint("Permessi concessi!");
+  //   } else {
+  //     debugPrint("Permessi negati.");
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -122,7 +132,9 @@ class _SecretListenerHomepageState extends State<SecretListenerHomepage> {
 
   void pickFile() async {
     String directoryWhatsApp =
-        '/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Voice Notes';
+        '/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media';
+
+    ///WhatsApp Voice Notes';
 
     result = await FilePicker.platform.pickFiles(
         initialDirectory: directoryWhatsApp,
@@ -149,24 +161,6 @@ class _SecretListenerHomepageState extends State<SecretListenerHomepage> {
       isPlaying = !isPlaying;
     });
   }
-
-  // Future<void> _play() async {
-  //   await player.resume();
-  //   setState(() => _playerState = PlayerState.playing);
-  // }
-
-  // Future<void> _pause() async {
-  //   await player.pause();
-  //   setState(() => _playerState = PlayerState.paused);
-  // }
-
-  // Future<void> _stop() async {
-  //   await player.stop();
-  //   setState(() {
-  //     _playerState = PlayerState.stopped;
-  //     _position = Duration.zero;
-  //   });
-  // }
 
   void togglePlaybackRate() {
     playbackRate = playbackRate == 1 ? 2 : 1;
