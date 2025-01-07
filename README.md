@@ -29,19 +29,15 @@ Dart
 🖼️ Anteprima / Preview
 
 
-
-![flutter_01_xsm](https://github.com/user-attachments/assets/5f98d229-c5ef-4a5c-a24a-5dff7997a6f2)
+![flutter_01_sm](https://github.com/user-attachments/assets/79a4a8b3-6349-4faf-8f21-bd8b5f53b8e4)
 
 
 ⚠️ Disclaimer
-Questa app è stata sviluppata esclusivamente per scopi educativi e per esplorare le funzionalità di Flutter. Non è destinata a essere utilizzata per violare la privacy di altre persone.
+Questa app è stata sviluppata esclusivamente per cazzeggio e per esplorare le funzionalità di Flutter. Non è destinata a essere utilizzata per violare la privacy di chicchessia.
 
 📜 Crediti / Credits
 Tutorial seguito: Pitone Programmatore (https://youtu.be/Qodfa7G08lM?si=x_UWO9MURQwtfAiz)
 
-
-🛑 Avviso etico
-Ricorda che la privacy è un diritto importante. Utilizza questa app in modo responsabile e con rispetto per gli altri.
 
 A few resources to get you started if this is your first Flutter project:
 
