@@ -28,8 +28,8 @@ Dart
 
 🖼️ Anteprima / Preview
 
-![flutter_01](https://github.com/user-attachments/assets/c84e4563-e3cb-4aca-a9e6-2a7cfae62292)
 
+![flutter_01_sm](https://github.com/user-attachments/assets/559dd774-9380-4e54-88d6-90daca0bb00f)
 
 
 ⚠️ Disclaimer
