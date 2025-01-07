@@ -29,9 +29,6 @@ class SecretListenerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // theme: ThemeData(
-      //     colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
-      //     brightness: Brightness.light),
       home: const SecretListenerHomepage(),
     );
   }
@@ -53,6 +50,7 @@ class _SecretListenerHomepageState extends State<SecretListenerHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Padding(
           padding: const EdgeInsets.all(8.0),
